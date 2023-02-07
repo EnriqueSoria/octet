@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "octet"
+version = "0.1.0"
+description = "Object-oriented way to represent digital sizes (bits and bytes)"
+authors = ["Enrique Soria <me@enriquesoria.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.black]
+line-length = 100
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
