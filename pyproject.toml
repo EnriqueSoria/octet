@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "octet"
-version = "0.1.0"
+version = "0.1.1"
 description = "Object-oriented way to represent digital sizes (bits and bytes)"
 authors = ["Enrique Soria <me@enriquesoria.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/EnriqueSoria/octet"
 
 [tool.poetry.dependencies]
 python = "^3.7"
