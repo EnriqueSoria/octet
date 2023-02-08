@@ -10,6 +10,14 @@ homepage = "https://github.com/EnriqueSoria/octet"
 [tool.poetry.dependencies]
 python = "^3.7"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
+
 [tool.black]
 line-length = 100
 
