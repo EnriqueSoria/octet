@@ -2,6 +2,11 @@
 
 Object-oriented way to represent digital sizes (bits and bytes)
 
+## Installation
+```bash
+pip install octet
+```
+
 ## Examples
 
 ```python
